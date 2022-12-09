@@ -1,20 +1,29 @@
 class MainController < ApplicationController
   def login
+    # is_login? if login already cant login again until logout 
+    login_again?
   end
 
   def create
-    u = User.where(email: params[:email]).first
-    if u and u.authenticate(params[:password])
-      redirect_to main_path
-      session[:id] = u.id
-      session[:logged_in] = true
+    # check overlap login?
+    if is_login?
+      redirect_to main_path, notice: 'Please logout your account before login again!'
     else
-      redirect_to login_path, notice: 'your username or your password is wrong. please try again!'
+      # check login authenticate with password?
+      u = User.where(email: params[:email]).first
+      if u and u.authenticate(params[:password])
+        redirect_to main_path
+        session[:id] = u.id
+        session[:logged_in] = true
+      else
+        redirect_to login_path, notice: 'your username or your password is wrong. please try again!'
+      end
     end
   end
 
   def destroy
     reset_session
+    redirect_to login_path, notice: 'logout already!'
   end
 
   def home

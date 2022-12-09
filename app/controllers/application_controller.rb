@@ -25,5 +25,12 @@ class ApplicationController < ActionController::Base
             end        
         end
         
-
+        def login_again?
+            if is_login?
+                redirect_to main_path
+            else
+                return true
+            end
+        end
+            
 end
