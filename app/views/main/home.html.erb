@@ -1,7 +1,11 @@
 <h1>Home</h1>
 <p>Welcome to RubyOnHell Store : id <%=@id%></p>
+
 <%# everyone who already login can open this page %>
-<%= link_to "Profile" , profile_path %>
+<% if @role == 'admin' or @role == 'seller' or @role == 'buyer'%>
+    <%= link_to "Profile" , profile_path %>
+    <%= link_to "Logout" , main_destroy_path%>
+<%end%>
 
 <%# seller and admin can open this page %>
 <% if @role == 'admin' or @role == 'seller'%>
@@ -16,7 +20,12 @@
     <%= link_to "Purchase History" , purchase_history_path %>
 <%end%>
 
-<%= link_to "Logout" , main_destroy_path%>
+<% if @role == 'guest'%>
+    <%= link_to "My Market" , my_market_path %>
+    <%= link_to "LogIn" , login_path %>
+<%end%>
+
+
 
 
 

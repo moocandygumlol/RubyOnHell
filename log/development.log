@@ -4459,3 +4459,1155 @@ Processing by MainController#home as HTML
 Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.1ms | Allocations: 15501)
 
 
+Started GET "/main" for ::1 at 2022-12-09 17:59:36 +0700
+  
+SyntaxError (/Users/moocandygum/Documents/rubyOnHell/app/controllers/application_controller.rb:65: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/application_controller.rb:65: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/application_controller.rb:65: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/application_controller.rb:65: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/main_controller.rb:1:in `<main>'
+Started GET "/main" for ::1 at 2022-12-09 18:00:50 +0700
+  
+SyntaxError (/Users/moocandygum/Documents/rubyOnHell/app/controllers/application_controller.rb:67: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/application_controller.rb:67: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/application_controller.rb:67: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/application_controller.rb:67: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/main_controller.rb:1:in `<main>'
+Started GET "/main" for ::1 at 2022-12-09 18:00:52 +0700
+  
+SyntaxError (/Users/moocandygum/Documents/rubyOnHell/app/controllers/application_controller.rb:67: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/application_controller.rb:67: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/application_controller.rb:67: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/application_controller.rb:67: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/main_controller.rb:1:in `<main>'
+Started GET "/main" for ::1 at 2022-12-09 18:02:06 +0700
+  
+SyntaxError (/Users/moocandygum/Documents/rubyOnHell/app/controllers/application_controller.rb:67: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/application_controller.rb:67: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/application_controller.rb:67: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/application_controller.rb:67: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/main_controller.rb:1:in `<main>'
+Started GET "/main" for ::1 at 2022-12-09 18:02:29 +0700
+  
+SyntaxError (/Users/moocandygum/Documents/rubyOnHell/app/controllers/application_controller.rb:67: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/application_controller.rb:67: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/application_controller.rb:67: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/application_controller.rb:67: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/main_controller.rb:1:in `<main>'
+Started GET "/main" for ::1 at 2022-12-09 18:02:42 +0700
+  
+SyntaxError (/Users/moocandygum/Documents/rubyOnHell/app/controllers/application_controller.rb:67: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/application_controller.rb:67: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/application_controller.rb:67: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/application_controller.rb:67: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/main_controller.rb:1:in `<main>'
+Started GET "/main" for ::1 at 2022-12-09 18:02:42 +0700
+  
+SyntaxError (/Users/moocandygum/Documents/rubyOnHell/app/controllers/application_controller.rb:67: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/application_controller.rb:67: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/application_controller.rb:67: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/application_controller.rb:67: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/main_controller.rb:1:in `<main>'
+Started GET "/main" for ::1 at 2022-12-09 18:02:50 +0700
+  
+SyntaxError (/Users/moocandygum/Documents/rubyOnHell/app/controllers/application_controller.rb:61: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/application_controller.rb:61: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/application_controller.rb:61: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/application_controller.rb:61: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/main_controller.rb:1:in `<main>'
+Started GET "/main" for ::1 at 2022-12-09 18:03:13 +0700
+Processing by MainController#home as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:16:in `role?'
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 618)
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 14631)
+Completed 200 OK in 20ms (Views: 12.8ms | ActiveRecord: 1.2ms | Allocations: 19238)
+
+
+Started GET "/main" for ::1 at 2022-12-09 18:03:14 +0700
+Processing by MainController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:16:in `role?'
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 210)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 2417)
+Completed 200 OK in 11ms (Views: 6.7ms | ActiveRecord: 0.2ms | Allocations: 3637)
+
+
+Started GET "/main" for ::1 at 2022-12-09 18:03:22 +0700
+Processing by MainController#home as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:16:in `role?'
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 283)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 14066)
+Completed 200 OK in 8ms (Views: 4.9ms | ActiveRecord: 0.4ms | Allocations: 18772)
+
+
+Started GET "/main" for ::1 at 2022-12-09 18:03:25 +0700
+Processing by MainController#home as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:16:in `role?'
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 210)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 2404)
+Completed 200 OK in 5ms (Views: 2.9ms | ActiveRecord: 0.1ms | Allocations: 3621)
+
+
+Started GET "/" for ::1 at 2022-12-09 18:03:25 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/moocandygum/.rvm/gems/ruby-3.1.2/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/moocandygum/.rvm/gems/ruby-3.1.2/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 2.3ms | Allocations: 284)
+Completed 200 OK in 6ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 877)
+
+
+Started GET "/users" for ::1 at 2022-12-09 18:03:32 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:6
+  Rendered users/_user.html.erb (Duration: 0.5ms | Allocations: 235)
+  Rendered users/_user.html.erb (Duration: 0.0ms | Allocations: 20)
+  Rendered users/index.html.erb within layouts/application (Duration: 5.7ms | Allocations: 2121)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 4522)
+Completed 200 OK in 13ms (Views: 10.6ms | ActiveRecord: 0.2ms | Allocations: 5339)
+
+
+Started GET "/" for ::1 at 2022-12-09 18:03:34 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/moocandygum/.rvm/gems/ruby-3.1.2/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/moocandygum/.rvm/gems/ruby-3.1.2/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.2ms | Allocations: 19)
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.0ms | Allocations: 265)
+
+
+Started GET "/profile" for ::1 at 2022-12-09 18:03:34 +0700
+Processing by MainController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/profile.html.erb within layouts/application
+  Rendered main/profile.html.erb within layouts/application (Duration: 0.6ms | Allocations: 83)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 2283)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 2785)
+
+
+Started GET "/purchase_history" for ::1 at 2022-12-09 18:03:40 +0700
+Processing by MainController#phistory as HTML
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.0ms | Allocations: 3846)
+
+
+  
+NameError (undefined local variable or method `permission_admin' for #<MainController:0x000000000c8b18>
+
+    permission_in(permission_admin, permission_buyer)
+                  ^^^^^^^^^^^^^^^^
+Did you mean?  permission_admin?
+               permission_in):
+  
+app/controllers/main_controller.rb:44:in `phistory'
+Started GET "/purchase_history" for ::1 at 2022-12-09 18:03:54 +0700
+Processing by MainController#phistory as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:16:in `role?'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:16:in `role?'
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.7ms | Allocations: 8234)
+
+
+  
+NoMethodError (undefined method `ppermission_in' for #<MainController:0x000000000cedd8>
+
+    ppermission_in(permission_admin?, permission_buyer?)
+    ^^^^^^^^^^^^^^
+Did you mean?  permission_in):
+  
+app/controllers/main_controller.rb:44:in `phistory'
+Started GET "/purchase_history" for ::1 at 2022-12-09 18:04:02 +0700
+Processing by MainController#phistory as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:16:in `role?'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:16:in `role?'
+  Rendering layout layouts/application.html.erb
+  Rendering main/phistory.html.erb within layouts/application
+  Rendered main/phistory.html.erb within layouts/application (Duration: 0.3ms | Allocations: 111)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 13916)
+Completed 200 OK in 10ms (Views: 5.7ms | ActiveRecord: 0.6ms | Allocations: 19295)
+
+
+Started GET "/main" for ::1 at 2022-12-09 18:04:08 +0700
+Processing by MainController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:16:in `role?'
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 250)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 2444)
+Completed 200 OK in 12ms (Views: 6.0ms | ActiveRecord: 0.2ms | Allocations: 3638)
+
+
+Started GET "/main/destroy" for ::1 at 2022-12-09 18:04:09 +0700
+Processing by MainController#destroy as HTML
+Redirected to http://localhost:3000/login
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 351)
+
+
+Started GET "/login" for ::1 at 2022-12-09 18:04:09 +0700
+Processing by MainController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/login.html.erb within layouts/application
+  Rendered main/login.html.erb within layouts/application (Duration: 3.6ms | Allocations: 2435)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 4631)
+Completed 200 OK in 10ms (Views: 8.1ms | ActiveRecord: 0.0ms | Allocations: 5111)
+
+
+Started POST "/main/create" for ::1 at 2022-12-09 18:04:12 +0700
+Processing by MainController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "email"=>"b@b", "password"=>"[FILTERED]", "commit"=>"OK"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "b@b"], ["LIMIT", 1]]
+  ↳ app/controllers/main_controller.rb:13:in `create'
+Redirected to http://localhost:3000/main
+Completed 302 Found in 263ms (ActiveRecord: 0.5ms | Allocations: 1007)
+
+
+Started GET "/main" for ::1 at 2022-12-09 18:04:12 +0700
+Processing by MainController#home as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:16:in `role?'
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 158)
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 2352)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 3394)
+
+
+Started GET "/" for ::1 at 2022-12-09 18:04:18 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/moocandygum/.rvm/gems/ruby-3.1.2/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/moocandygum/.rvm/gems/ruby-3.1.2/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 19)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 231)
+
+
+Started GET "/users" for ::1 at 2022-12-09 18:04:19 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:6
+  Rendered users/_user.html.erb (Duration: 0.1ms | Allocations: 43)
+  Rendered users/_user.html.erb (Duration: 0.0ms | Allocations: 20)
+  Rendered users/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1381)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 3779)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.2ms | Allocations: 4434)
+
+
+Started GET "/users" for ::1 at 2022-12-09 18:04:20 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:6
+  Rendered users/_user.html.erb (Duration: 0.1ms | Allocations: 22)
+  Rendered users/_user.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered users/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1013)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 3197)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.2ms | Allocations: 3472)
+
+
+Started GET "/users" for ::1 at 2022-12-09 18:04:33 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:6
+  Rendered users/_user.html.erb (Duration: 0.0ms | Allocations: 47)
+  Rendered users/_user.html.erb (Duration: 0.0ms | Allocations: 20)
+  Rendered users/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 3582)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 17344)
+Completed 200 OK in 11ms (Views: 9.4ms | ActiveRecord: 0.8ms | Allocations: 18785)
+
+
+Started GET "/" for ::1 at 2022-12-09 18:04:34 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/moocandygum/.rvm/gems/ruby-3.1.2/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/moocandygum/.rvm/gems/ruby-3.1.2/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 19)
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 250)
+
+
+Started GET "/login" for ::1 at 2022-12-09 18:04:36 +0700
+Processing by MainController#login as HTML
+Redirected to http://localhost:3000/main
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 468)
+
+
+Started GET "/main" for ::1 at 2022-12-09 18:04:36 +0700
+Processing by MainController#home as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:16:in `role?'
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 222)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | Allocations: 2643)
+Completed 200 OK in 5ms (Views: 2.9ms | ActiveRecord: 0.1ms | Allocations: 4223)
+
+
+Started GET "/" for ::1 at 2022-12-09 18:04:37 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/moocandygum/.rvm/gems/ruby-3.1.2/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/moocandygum/.rvm/gems/ruby-3.1.2/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 19)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 249)
+
+
+Started GET "/login" for ::1 at 2022-12-09 18:04:38 +0700
+Processing by MainController#login as HTML
+Redirected to http://localhost:3000/main
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 372)
+
+
+Started GET "/main" for ::1 at 2022-12-09 18:04:38 +0700
+Processing by MainController#home as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:16:in `role?'
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 158)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 2352)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.1ms | Allocations: 3475)
+
+
+Started GET "/main" for ::1 at 2022-12-09 18:04:45 +0700
+Processing by MainController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:16:in `role?'
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 158)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 2352)
+Completed 200 OK in 8ms (Views: 4.8ms | ActiveRecord: 0.2ms | Allocations: 3355)
+
+
+Started GET "/" for ::1 at 2022-12-09 18:04:45 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/moocandygum/.rvm/gems/ruby-3.1.2/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/moocandygum/.rvm/gems/ruby-3.1.2/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 15)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 221)
+
+
+Started GET "/profile" for ::1 at 2022-12-09 18:04:46 +0700
+Processing by MainController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/profile.html.erb within layouts/application
+  Rendered main/profile.html.erb within layouts/application (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 2201)
+Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 2605)
+
+
+Started GET "/purchase_history" for ::1 at 2022-12-09 18:04:46 +0700
+Processing by MainController#phistory as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:16:in `role?'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:16:in `role?'
+  Rendering layout layouts/application.html.erb
+  Rendering main/phistory.html.erb within layouts/application
+  Rendered main/phistory.html.erb within layouts/application (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 2201)
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.1ms | Allocations: 3788)
+
+
+Started GET "/purchase_history" for ::1 at 2022-12-09 18:05:06 +0700
+Processing by MainController#phistory as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:16:in `role?'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:16:in `role?'
+Redirected to http://localhost:3000/main
+Completed 302 Found in 4ms (ActiveRecord: 0.6ms | Allocations: 4976)
+
+
+Started GET "/main" for ::1 at 2022-12-09 18:05:06 +0700
+Processing by MainController#home as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:16:in `role?'
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 222)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 14006)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 15401)
+
+
+Started GET "/main" for ::1 at 2022-12-09 18:05:11 +0700
+Processing by MainController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:16:in `role?'
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 158)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 2354)
+Completed 200 OK in 8ms (Views: 4.6ms | ActiveRecord: 0.2ms | Allocations: 3559)
+
+
+Started GET "/" for ::1 at 2022-12-09 18:05:12 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/moocandygum/.rvm/gems/ruby-3.1.2/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/moocandygum/.rvm/gems/ruby-3.1.2/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 19)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 231)
+
+
+Started GET "/users" for ::1 at 2022-12-09 18:05:12 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:6
+  Rendered users/_user.html.erb (Duration: 0.1ms | Allocations: 44)
+  Rendered users/_user.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered users/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 1376)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 3774)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.2ms | Allocations: 4428)
+
+
+Started GET "/users" for ::1 at 2022-12-09 18:05:13 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:6
+  Rendered users/_user.html.erb (Duration: 0.1ms | Allocations: 22)
+  Rendered users/_user.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered users/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1022)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 3206)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.1ms | Allocations: 3481)
+
+
+Started GET "/users" for ::1 at 2022-12-09 18:05:16 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:6
+  Rendered users/_user.html.erb (Duration: 0.1ms | Allocations: 22)
+  Rendered users/_user.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered users/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1019)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 3203)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.1ms | Allocations: 3457)
+
+
+Started GET "/" for ::1 at 2022-12-09 18:05:16 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/moocandygum/.rvm/gems/ruby-3.1.2/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/moocandygum/.rvm/gems/ruby-3.1.2/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 19)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 231)
+
+
+Started GET "/main" for ::1 at 2022-12-09 18:05:17 +0700
+Processing by MainController#home as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:16:in `role?'
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 158)
+  Rendered layout layouts/application.html.erb (Duration: 13.9ms | Allocations: 2352)
+Completed 200 OK in 23ms (Views: 17.9ms | ActiveRecord: 0.1ms | Allocations: 3427)
+
+
+Started GET "/main" for ::1 at 2022-12-09 18:05:20 +0700
+Processing by MainController#home as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:16:in `role?'
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 158)
+  Rendered layout layouts/application.html.erb (Duration: 16.5ms | Allocations: 2362)
+Completed 200 OK in 23ms (Views: 16.9ms | ActiveRecord: 0.1ms | Allocations: 3387)
+
+
+Started GET "/" for ::1 at 2022-12-09 18:05:20 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/moocandygum/.rvm/gems/ruby-3.1.2/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/moocandygum/.rvm/gems/ruby-3.1.2/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 15)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 221)
+
+
+Started GET "/profile" for ::1 at 2022-12-09 18:05:21 +0700
+Processing by MainController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/profile.html.erb within layouts/application
+  Rendered main/profile.html.erb within layouts/application (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 2206)
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 2616)
+
+
+Started GET "/purchase_history" for ::1 at 2022-12-09 18:05:21 +0700
+Processing by MainController#phistory as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:16:in `role?'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:16:in `role?'
+Redirected to http://localhost:3000/main
+Completed 302 Found in 5ms (ActiveRecord: 0.2ms | Allocations: 1515)
+
+
+Started GET "/main" for ::1 at 2022-12-09 18:05:21 +0700
+Processing by MainController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:16:in `role?'
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 158)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 2354)
+Completed 200 OK in 9ms (Views: 5.4ms | ActiveRecord: 0.2ms | Allocations: 3389)
+
+
+Started GET "/" for ::1 at 2022-12-09 18:57:44 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/moocandygum/.rvm/gems/ruby-3.1.2/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/moocandygum/.rvm/gems/ruby-3.1.2/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.6ms | Allocations: 285)
+Completed 200 OK in 2ms (Views: 1.1ms | Allocations: 966)
+
+
+Started GET "/" for ::1 at 2022-12-09 18:57:46 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/moocandygum/.rvm/gems/ruby-3.1.2/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/moocandygum/.rvm/gems/ruby-3.1.2/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 15)
+Completed 200 OK in 1ms (Views: 0.5ms | Allocations: 242)
+
+
+Started GET "/login" for ::1 at 2022-12-09 18:57:47 +0700
+Processing by MainController#login as HTML
+Redirected to http://localhost:3000/main
+Completed 302 Found in 1ms (Allocations: 490)
+
+
+Started GET "/main" for ::1 at 2022-12-09 18:57:47 +0700
+Processing by MainController#home as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:16:in `role?'
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 620)
+  Rendered layout layouts/application.html.erb (Duration: 14.5ms | Allocations: 14633)
+Completed 200 OK in 24ms (Views: 15.7ms | ActiveRecord: 0.8ms | Allocations: 19103)
+
+
+Started GET "/main/destroy" for ::1 at 2022-12-09 18:57:49 +0700
+Processing by MainController#destroy as HTML
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 384)
+
+
+Started GET "/login" for ::1 at 2022-12-09 18:57:49 +0700
+Processing by MainController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/login.html.erb within layouts/application
+  Rendered main/login.html.erb within layouts/application (Duration: 3.5ms | Allocations: 2431)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 4629)
+Completed 200 OK in 10ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 5102)
+
+
+Started GET "/" for ::1 at 2022-12-09 18:57:51 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/moocandygum/.rvm/gems/ruby-3.1.2/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/moocandygum/.rvm/gems/ruby-3.1.2/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.2ms | Allocations: 19)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 231)
+
+
+Started GET "/main" for ::1 at 2022-12-09 18:57:53 +0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 134)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 2328)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms | Allocations: 2741)
+
+
+Started GET "/main" for ::1 at 2022-12-09 18:59:17 +0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 1.8ms | Allocations: 568)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 3202)
+Completed 200 OK in 15ms (Views: 13.2ms | ActiveRecord: 0.0ms | Allocations: 4140)
+
+
+Started GET "/my_market" for ::1 at 2022-12-09 18:59:21 +0700
+Processing by MainController#market as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/market.html.erb within layouts/application
+  Rendered main/market.html.erb within layouts/application (Duration: 1.0ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 2463)
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 2778)
+
+
+Started GET "/login" for ::1 at 2022-12-09 18:59:22 +0700
+Processing by MainController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/login.html.erb within layouts/application
+  Rendered main/login.html.erb within layouts/application (Duration: 3.8ms | Allocations: 2425)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 4619)
+Completed 200 OK in 11ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 5090)
+
+
+Started GET "/login" for ::1 at 2022-12-09 18:59:25 +0700
+Processing by MainController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/login.html.erb within layouts/application
+  Rendered main/login.html.erb within layouts/application (Duration: 3.0ms | Allocations: 2171)
+  Rendered layout layouts/application.html.erb (Duration: 12.4ms | Allocations: 4365)
+Completed 200 OK in 15ms (Views: 13.2ms | ActiveRecord: 0.0ms | Allocations: 4772)
+
+
+Started GET "/login" for ::1 at 2022-12-09 18:59:41 +0700
+Processing by MainController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/login.html.erb within layouts/application
+  Rendered main/login.html.erb within layouts/application (Duration: 2.9ms | Allocations: 2171)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 4365)
+Completed 200 OK in 11ms (Views: 9.1ms | ActiveRecord: 0.0ms | Allocations: 4771)
+
+
+Started POST "/main/create" for ::1 at 2022-12-09 18:59:44 +0700
+Processing by MainController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "email"=>"aefb", "password"=>"[FILTERED]", "commit"=>"OK"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "aefb"], ["LIMIT", 1]]
+  ↳ app/controllers/main_controller.rb:13:in `create'
+Redirected to http://localhost:3000/login
+Completed 302 Found in 5ms (ActiveRecord: 0.4ms | Allocations: 1095)
+
+
+Started GET "/login" for ::1 at 2022-12-09 18:59:44 +0700
+Processing by MainController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/login.html.erb within layouts/application
+  Rendered main/login.html.erb within layouts/application (Duration: 1.4ms | Allocations: 2172)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 4385)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 4803)
+
+
+Started GET "/login" for ::1 at 2022-12-09 19:00:23 +0700
+Processing by MainController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/login.html.erb within layouts/application
+  Rendered main/login.html.erb within layouts/application (Duration: 0.8ms | Allocations: 2548)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 16519)
+Completed 200 OK in 7ms (Views: 6.1ms | Allocations: 17695)
+
+
+Started GET "/main" for ::1 at 2022-12-09 19:00:25 +0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 1.8ms | Allocations: 488)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 2691)
+Completed 200 OK in 10ms (Views: 7.2ms | Allocations: 3196)
+
+
+Started GET "/login" for ::1 at 2022-12-09 19:00:26 +0700
+Processing by MainController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/login.html.erb within layouts/application
+  Rendered main/login.html.erb within layouts/application (Duration: 3.2ms | Allocations: 2198)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 4392)
+Completed 200 OK in 11ms (Views: 9.2ms | Allocations: 4789)
+
+
+Started GET "/main" for ::1 at 2022-12-09 19:00:31 +0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 2279)
+Completed 200 OK in 8ms (Views: 6.5ms | Allocations: 2699)
+
+
+Started GET "/login" for ::1 at 2022-12-09 19:00:32 +0700
+Processing by MainController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/login.html.erb within layouts/application
+  Rendered main/login.html.erb within layouts/application (Duration: 2.3ms | Allocations: 2198)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 4392)
+Completed 200 OK in 9ms (Views: 8.2ms | Allocations: 4792)
+
+
+Started GET "/main" for ::1 at 2022-12-09 19:00:33 +0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 5.1ms | Allocations: 2275)
+Completed 200 OK in 7ms (Views: 5.8ms | Allocations: 2691)
+
+
+Started GET "/login" for ::1 at 2022-12-09 19:00:35 +0700
+Processing by MainController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/login.html.erb within layouts/application
+  Rendered main/login.html.erb within layouts/application (Duration: 2.1ms | Allocations: 2199)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 4393)
+Completed 200 OK in 11ms (Views: 9.2ms | Allocations: 4808)
+
+
+Started GET "/main" for ::1 at 2022-12-09 19:00:36 +0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 2273)
+Completed 200 OK in 8ms (Views: 6.4ms | Allocations: 2686)
+
+
+Started GET "/my_market" for ::1 at 2022-12-09 19:00:37 +0700
+Processing by MainController#market as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/market.html.erb within layouts/application
+  Rendered main/market.html.erb within layouts/application (Duration: 1.0ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 2441)
+Completed 200 OK in 9ms (Views: 7.4ms | Allocations: 2734)
+
+
+Started GET "/my_market" for ::1 at 2022-12-09 19:01:39 +0700
+Processing by MainController#market as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/market.html.erb within layouts/application
+  Rendered main/market.html.erb within layouts/application (Duration: 0.7ms | Allocations: 217)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 3069)
+Completed 200 OK in 11ms (Views: 9.2ms | Allocations: 3846)
+
+
+Started GET "/my_market" for ::1 at 2022-12-09 19:01:40 +0700
+Processing by MainController#market as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/market.html.erb within layouts/application
+  Rendered main/market.html.erb within layouts/application (Duration: 0.3ms | Allocations: 44)
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 2399)
+Completed 200 OK in 8ms (Views: 6.5ms | Allocations: 2655)
+
+
+Started GET "/main" for ::1 at 2022-12-09 19:01:41 +0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 1.9ms | Allocations: 488)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 2682)
+Completed 200 OK in 9ms (Views: 7.4ms | Allocations: 3148)
+
+
+Started GET "/my_market" for ::1 at 2022-12-09 19:01:42 +0700
+Processing by MainController#market as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/market.html.erb within layouts/application
+  Rendered main/market.html.erb within layouts/application (Duration: 0.3ms | Allocations: 44)
+  Rendered layout layouts/application.html.erb (Duration: 14.8ms | Allocations: 2405)
+Completed 200 OK in 17ms (Views: 15.6ms | Allocations: 2646)
+
+
+Started GET "/main" for ::1 at 2022-12-09 19:01:42 +0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 2285)
+Completed 200 OK in 7ms (Views: 6.0ms | Allocations: 2686)
+
+
+Started GET "/my_market" for ::1 at 2022-12-09 19:01:42 +0700
+Processing by MainController#market as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/market.html.erb within layouts/application
+  Rendered main/market.html.erb within layouts/application (Duration: 0.2ms | Allocations: 44)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 2405)
+Completed 200 OK in 7ms (Views: 6.4ms | Allocations: 2645)
+
+
+Started GET "/main" for ::1 at 2022-12-09 19:01:43 +0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 2273)
+Completed 200 OK in 7ms (Views: 5.6ms | Allocations: 2676)
+
+
+Started GET "/my_market" for ::1 at 2022-12-09 19:01:43 +0700
+Processing by MainController#market as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/market.html.erb within layouts/application
+  Rendered main/market.html.erb within layouts/application (Duration: 0.2ms | Allocations: 44)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 2408)
+Completed 200 OK in 6ms (Views: 5.6ms | Allocations: 2648)
+
+
+Started GET "/main" for ::1 at 2022-12-09 19:01:43 +0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 18.4ms | Allocations: 2273)
+Completed 200 OK in 21ms (Views: 19.3ms | Allocations: 2697)
+
+
+Started GET "/login" for ::1 at 2022-12-09 19:01:44 +0700
+Processing by MainController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/login.html.erb within layouts/application
+  Rendered main/login.html.erb within layouts/application (Duration: 3.4ms | Allocations: 2473)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 4667)
+Completed 200 OK in 11ms (Views: 9.2ms | Allocations: 5108)
+
+
+Started GET "/main" for ::1 at 2022-12-09 19:01:45 +0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 2273)
+Completed 200 OK in 7ms (Views: 6.2ms | Allocations: 2674)
+
+
+Started GET "/login" for ::1 at 2022-12-09 19:01:47 +0700
+Processing by MainController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/login.html.erb within layouts/application
+  Rendered main/login.html.erb within layouts/application (Duration: 1.1ms | Allocations: 2198)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 4392)
+Completed 200 OK in 4ms (Views: 3.7ms | Allocations: 4786)
+
+
+Started POST "/main/create" for ::1 at 2022-12-09 19:01:50 +0700
+Processing by MainController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "email"=>"a@a", "password"=>"[FILTERED]", "commit"=>"OK"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "a@a"], ["LIMIT", 1]]
+  ↳ app/controllers/main_controller.rb:13:in `create'
+Redirected to http://localhost:3000/main
+Completed 302 Found in 263ms (ActiveRecord: 1.5ms | Allocations: 7068)
+
+
+Started GET "/main" for ::1 at 2022-12-09 19:01:50 +0700
+Processing by MainController#home as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:16:in `role?'
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 243)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | Allocations: 2549)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.1ms | Allocations: 3700)
+
+
+Started GET "/my_inventory" for ::1 at 2022-12-09 19:01:57 +0700
+Processing by MainController#inventory as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/inventory.html.erb within layouts/application
+  Rendered main/inventory.html.erb within layouts/application (Duration: 0.6ms | Allocations: 101)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 2296)
+Completed 200 OK in 8ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 2759)
+
+
+Started POST "/main/create" for ::1 at 2022-12-09 19:02:01 +0700
+Processing by MainController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "email"=>"a@a", "password"=>"[FILTERED]", "commit"=>"OK"}
+Redirected to http://localhost:3000/main
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 305)
+
+
+Started GET "/main" for ::1 at 2022-12-09 19:02:01 +0700
+Processing by MainController#home as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:16:in `role?'
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 212)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 2418)
+Completed 200 OK in 6ms (Views: 3.7ms | ActiveRecord: 0.1ms | Allocations: 3480)
+
+
+Started GET "/main/destroy" for ::1 at 2022-12-09 19:02:03 +0700
+Processing by MainController#destroy as HTML
+Redirected to http://localhost:3000/login
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 335)
+
+
+Started GET "/login" for ::1 at 2022-12-09 19:02:03 +0700
+Processing by MainController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/login.html.erb within layouts/application
+  Rendered main/login.html.erb within layouts/application (Duration: 1.8ms | Allocations: 2228)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 4429)
+Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 4835)
+
+
+Started POST "/main/create" for ::1 at 2022-12-09 19:02:07 +0700
+Processing by MainController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "email"=>"b@b", "password"=>"[FILTERED]", "commit"=>"OK"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "b@b"], ["LIMIT", 1]]
+  ↳ app/controllers/main_controller.rb:13:in `create'
+Redirected to http://localhost:3000/main
+Completed 302 Found in 257ms (ActiveRecord: 0.2ms | Allocations: 936)
+
+
+Started GET "/main" for ::1 at 2022-12-09 19:02:07 +0700
+Processing by MainController#home as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:16:in `role?'
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 161)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | Allocations: 2355)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 3379)
+
+
+Started GET "/profile" for ::1 at 2022-12-09 19:02:09 +0700
+Processing by MainController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/profile.html.erb within layouts/application
+  Rendered main/profile.html.erb within layouts/application (Duration: 0.9ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 2279)
+Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 2732)
+
+
+Started GET "/sale_history" for ::1 at 2022-12-09 19:02:11 +0700
+Processing by MainController#shistory as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/shistory.html.erb within layouts/application
+  Rendered main/shistory.html.erb within layouts/application (Duration: 1.6ms | Allocations: 83)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 2278)
+Completed 200 OK in 9ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 2735)
+
+
+Started GET "/my_inventory" for ::1 at 2022-12-09 19:02:13 +0700
+Processing by MainController#inventory as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/inventory.html.erb within layouts/application
+  Rendered main/inventory.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 2200)
+Completed 200 OK in 7ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 2600)
+
+
+Started GET "/my_inventory" for ::1 at 2022-12-09 19:02:14 +0700
+Processing by MainController#inventory as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/inventory.html.erb within layouts/application
+  Rendered main/inventory.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 2200)
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 2600)
+
+
+Started GET "/main/destroy" for ::1 at 2022-12-09 19:02:26 +0700
+Processing by MainController#destroy as HTML
+Redirected to http://localhost:3000/login
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 316)
+
+
+Started GET "/login" for ::1 at 2022-12-09 19:02:26 +0700
+Processing by MainController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/login.html.erb within layouts/application
+  Rendered main/login.html.erb within layouts/application (Duration: 1.9ms | Allocations: 2203)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 4398)
+Completed 200 OK in 7ms (Views: 5.4ms | ActiveRecord: 0.0ms | Allocations: 4825)
+
+
+Started GET "/main" for ::1 at 2022-12-09 19:02:30 +0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 2273)
+Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 2674)
+
+
+Started GET "/main" for ::1 at 2022-12-09 19:03:08 +0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 578)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 14589)
+Completed 200 OK in 6ms (Views: 5.9ms | Allocations: 15745)
+
+
+Started GET "/my_market" for ::1 at 2022-12-09 19:03:10 +0700
+Processing by MainController#market as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/market.html.erb within layouts/application
+  Rendered main/market.html.erb within layouts/application (Duration: 0.9ms | Allocations: 145)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 2534)
+Completed 200 OK in 8ms (Views: 6.6ms | Allocations: 2845)
+
+
+Started GET "/my_market" for ::1 at 2022-12-09 19:21:36 +0700
+Processing by MainController#market as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/market.html.erb within layouts/application
+  Rendered main/market.html.erb within layouts/application (Duration: 0.5ms | Allocations: 250)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 3098)
+Completed 200 OK in 4ms (Views: 3.6ms | Allocations: 3873)
+
+
+Started GET "/my_market" for ::1 at 2022-12-09 19:22:01 +0700
+Processing by MainController#market as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/market.html.erb within layouts/application
+  Rendered main/market.html.erb within layouts/application (Duration: 0.9ms | Allocations: 238)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 3101)
+Completed 200 OK in 12ms (Views: 10.5ms | Allocations: 3894)
+
+
+Started GET "/my_market" for ::1 at 2022-12-09 19:22:02 +0700
+Processing by MainController#market as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/market.html.erb within layouts/application
+  Rendered main/market.html.erb within layouts/application (Duration: 0.3ms | Allocations: 44)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 2402)
+Completed 200 OK in 7ms (Views: 6.0ms | Allocations: 2658)
+
+
+Started GET "/my_market" for ::1 at 2022-12-09 19:22:02 +0700
+Processing by MainController#market as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/market.html.erb within layouts/application
+  Rendered main/market.html.erb within layouts/application (Duration: 0.1ms | Allocations: 44)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 2402)
+Completed 200 OK in 4ms (Views: 3.2ms | Allocations: 2641)
+
+
+Started GET "/main" for ::1 at 2022-12-09 19:22:03 +0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 1.7ms | Allocations: 488)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 2682)
+Completed 200 OK in 9ms (Views: 7.6ms | Allocations: 3153)
+
+
+Started GET "/my_market" for ::1 at 2022-12-09 19:22:04 +0700
+Processing by MainController#market as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/market.html.erb within layouts/application
+  Rendered main/market.html.erb within layouts/application (Duration: 0.2ms | Allocations: 44)
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 2401)
+Completed 200 OK in 6ms (Views: 5.7ms | Allocations: 2641)
+
+
+Started GET "/my_market" for ::1 at 2022-12-09 19:24:31 +0700
+Processing by MainController#market as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/market.html.erb within layouts/application
+  Rendered main/market.html.erb within layouts/application (Duration: 1.0ms | Allocations: 237)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 3107)
+Completed 200 OK in 13ms (Views: 11.8ms | Allocations: 3882)
+
+
+Started GET "/my_market" for ::1 at 2022-12-09 19:25:32 +0700
+Processing by MainController#market as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/market.html.erb within layouts/application
+  Rendered main/market.html.erb within layouts/application (Duration: 3.6ms | Allocations: 700)
+  Rendered layout layouts/application.html.erb (Duration: 10.7ms | Allocations: 3556)
+Completed 200 OK in 15ms (Views: 13.6ms | Allocations: 4349)
+
+
+Started GET "/my_market" for ::1 at 2022-12-09 19:25:50 +0700
+Processing by MainController#market as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/market.html.erb within layouts/application
+  Rendered main/market.html.erb within layouts/application (Duration: 1.4ms | Allocations: 699)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 3550)
+Completed 200 OK in 12ms (Views: 10.8ms | Allocations: 4343)
+
+
+Started GET "/my_market" for ::1 at 2022-12-09 19:26:12 +0700
+Processing by MainController#market as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/market.html.erb within layouts/application
+  Rendered main/market.html.erb within layouts/application (Duration: 1.7ms | Allocations: 699)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 3583)
+Completed 200 OK in 13ms (Views: 11.2ms | Allocations: 4376)
+
+
+Started GET "/my_market" for ::1 at 2022-12-09 19:26:33 +0700
+Processing by MainController#market as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/market.html.erb within layouts/application
+  Rendered main/market.html.erb within layouts/application (Duration: 1.3ms | Allocations: 702)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 3574)
+Completed 200 OK in 7ms (Views: 5.8ms | Allocations: 4368)
+
+
+Started GET "/main" for ::1 at 2022-12-09 19:27:24 +0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 2.2ms | Allocations: 566)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 3214)
+Completed 200 OK in 14ms (Views: 11.2ms | Allocations: 4167)
+
+
+Started GET "/my_market" for ::1 at 2022-12-09 19:27:26 +0700
+Processing by MainController#market as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/market.html.erb within layouts/application
+  Rendered main/market.html.erb within layouts/application (Duration: 2.0ms | Allocations: 623)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 3039)
+Completed 200 OK in 8ms (Views: 6.9ms | Allocations: 3350)
+
+
+Started GET "/my_market" for ::1 at 2022-12-09 19:30:37 +0700
+Processing by MainController#market as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/market.html.erb within layouts/application
+  Rendered main/market.html.erb within layouts/application (Duration: 2.6ms | Allocations: 699)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 3557)
+Completed 200 OK in 21ms (Views: 13.5ms | Allocations: 4332)
+
+
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (3.3ms)[0m  [1m[32mINSERT INTO "users" ("email", "name", "user_type", "created_at", "updated_at", "password_digest") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "c@c"], ["name", "c"], ["user_type", 2], ["created_at", "2022-12-09 13:01:00.293319"], ["updated_at", "2022-12-09 13:01:00.293319"], ["password_digest", "[FILTERED]"]]
+  [1m[36mTRANSACTION (3.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mMarket Create (0.6ms)[0m  [1m[32mINSERT INTO "markets" ("user_id", "item_id", "price", "quantity", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["user_id", 1], ["item_id", 1], ["price", 1000.0], ["quantity", 10], ["created_at", "2022-12-09 13:01:58.608748"], ["updated_at", "2022-12-09 13:01:58.608748"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/my_market" for ::1 at 2022-12-09 20:06:02 +0700
+Processing by MainController#market as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/market.html.erb within layouts/application
+  [1m[36mMarket Load (0.1ms)[0m  [1m[34mSELECT "markets".* FROM "markets" ORDER BY "markets"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/main/market.html.erb:14
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/main/market.html.erb:15
+  [1m[36mItem Load (0.0ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."id" = ? ORDER BY "items"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/main/market.html.erb:16
+  Rendered main/market.html.erb within layouts/application (Duration: 32.3ms | Allocations: 17124)
+  Rendered layout layouts/application.html.erb (Duration: 37.1ms | Allocations: 20033)
+Completed 200 OK in 42ms (Views: 40.1ms | ActiveRecord: 1.5ms | Allocations: 20825)
+
+
+Started GET "/my_market" for ::1 at 2022-12-09 20:06:37 +0700
+Processing by MainController#market as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/market.html.erb within layouts/application
+  [1m[36mMarket Load (0.2ms)[0m  [1m[34mSELECT "markets".* FROM "markets" ORDER BY "markets"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/main/market.html.erb:14
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/main/market.html.erb:15
+  [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."id" = ? ORDER BY "items"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/main/market.html.erb:16
+  Rendered main/market.html.erb within layouts/application (Duration: 7.1ms | Allocations: 2411)
+  Rendered layout layouts/application.html.erb (Duration: 12.8ms | Allocations: 5267)
+Completed 200 OK in 18ms (Views: 15.8ms | ActiveRecord: 0.3ms | Allocations: 6089)
+
+

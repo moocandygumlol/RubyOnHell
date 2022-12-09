@@ -32,5 +32,37 @@ class ApplicationController < ActionController::Base
                 return true
             end
         end
+
+        def permission_buyer?
+            if role? == 'buyer'
+                return true
+            else
+                return false
+            end
+        end
+
+        def permission_admin?
+            if role? == 'admin'
+                return true
+            else
+                return false
+            end
+        end
+
+        def permission_seller?
+            if role? == 'seller'
+                return true
+            else
+                return false
+            end
+        end
+
+        def permission_in(x, y)
+            if x or y
+                return true
+            else
+                redirect_to main_path, notice: "you don't have permission to access this page"
+            end
+        end
             
 end

@@ -27,9 +27,13 @@ class MainController < ApplicationController
   end
 
   def home
-    must_be_logged_in
-    @role = role?
-    @id = session[:id]
+    if session[:logged_in]
+      @role = role?
+      @id = session[:id]
+    else
+      @role = 'guest'
+    end
+    
   end
 
   def profile
@@ -41,10 +45,12 @@ class MainController < ApplicationController
 
   def phistory
     must_be_logged_in
+    permission_in(permission_admin?, permission_buyer?)
   end
 
   def shistory
     must_be_logged_in
+    
   end
 
   def inventory
