@@ -57,6 +57,26 @@ class UsersController < ApplicationController
     end
   end
 
+  def changePassword
+    render "changepassword"
+  end
+
+  def newPassword
+    u = User.where(id: session[:id]).first
+    if u and u.authenticate(params[:password])
+      if params[:newPassword] and (params[:newPassword] == params[:confirmPassword])
+        u.password = params[:newPassword]
+        u.save
+        url = "/users/" + session[:id].to_s
+        redirect_to url, notice: "Your new password already saved."
+      else
+        redirect_to changepassword_path, notice: "Your new password not matched."
+      end
+    else
+      redirect_to changepassword_path, notice: "Your password is not correct."
+    end
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_user

@@ -11,7 +11,13 @@
 
   <p>
     <strong>User type:</strong>
-    <%= user.user_type %>
+    <% role = "admin"%>
+    <% if user.user_type == 1%>
+    <% role = "seller"%>
+    <% elsif user.user_type == 2%>
+    <% role = "buyer"%>
+    <%end%>
+    <%= role %>
   </p>
 
 </div>

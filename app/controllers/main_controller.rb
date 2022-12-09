@@ -34,6 +34,7 @@ class MainController < ApplicationController
 
   def profile
     must_be_logged_in
+    redirect_to "/users/" + session[:id].to_s
   end
 
   def market

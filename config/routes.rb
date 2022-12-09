@@ -13,6 +13,8 @@ Rails.application.routes.draw do
   resources :inventories
   resources :items
   resources :users
+  get 'changepassword', to: 'users#changePassword'
+  post 'newpassword', to: 'users#newPassword'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Defines the root path route ("/")
