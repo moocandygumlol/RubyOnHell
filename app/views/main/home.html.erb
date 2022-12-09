@@ -1,3 +1,22 @@
-<h1>Main</h1>
-<p>Find me in app/views/main/home.html.erb</p>
-<%= link_to "market" , controller: "main", action: "market" %>
+<h1>Home</h1>
+<p>Welcome to RubyOnHell Store : id <%=@id%></p>
+<%# everyone who already login can open this page %>
+<%= link_to "Profile" , profile_path %>
+
+<%# seller and admin can open this page %>
+<% if @role == 'admin' or @role == 'seller'%>
+    <%= link_to "Sale History" , sale_history_path %>
+    <%= link_to "My Inventory" , my_inventory_path %>
+    <%= link_to "Top Seller" , my_inventory_path %>
+<%end%>
+
+<%# buyer and admin can open this page %>
+<% if @role == 'admin' or @role == 'buyer'%>
+    <%= link_to "My Market" , my_market_path %>
+    <%= link_to "Purchase History" , purchase_history_path %>
+<%end%>
+
+
+
+
+

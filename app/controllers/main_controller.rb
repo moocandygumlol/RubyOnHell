@@ -6,7 +6,7 @@ class MainController < ApplicationController
     u = User.where(email: params[:email]).first
     if u and u.authenticate(params[:password])
       redirect_to main_path
-      session[:email] = params[:email]
+      session[:id] = u.id
       session[:logged_in] = true
     else
       redirect_to login_path, notice: 'your username or your password is wrong. please try again!'
@@ -19,6 +19,8 @@ class MainController < ApplicationController
 
   def home
     must_be_logged_in
+    @role = role?
+    @id = session[:id]
   end
 
   def profile

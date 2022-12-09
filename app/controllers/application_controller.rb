@@ -13,13 +13,15 @@ class ApplicationController < ActionController::Base
         end
 
         def role?
-            u = User.where(email: session[:email]).first   
+            u = User.where(id: session[:id]).first   
             if u.user_type == 0
-                return 'buyer'
+                return 'admin'
             elsif u.user_type == 1
                 return 'seller'
+            elsif u.user_type == 2
+                return 'buyer'
             else
-                return 'admin'
+                return 'guest'
             end        
         end
         
